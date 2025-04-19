@@ -4,6 +4,9 @@
 
 By: Emil Slettbakk, John I. Eriksen
 
+**Final grade:** B
+
+
 ## Project assignment
 
 #### Various Reinforcement Learning Tasks
