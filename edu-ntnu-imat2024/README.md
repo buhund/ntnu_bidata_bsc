@@ -5,4 +5,4 @@
 - Alun Anderson, former editor of *New Scientist*
 
 
-Group project in *partial differential equations* ()*Partielle differentiallikninger*).
+Group project in *partial differential equations* (*Partielle differentiallikninger*).
