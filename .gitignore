@@ -1,0 +1,95 @@
+ # Operating system files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# KDE (Kubuntu)
+.directory
+
+# IDE-specific files
+# JetBrains (IntelliJ IDEA, PyCharm, CLion, etc.)
+.idea/
+*.iml
+*.iws
+.idea_modules/
+*.log
+*.ipr
+
+# Compiled source code files
+*.class
+*.jar
+*.war
+*.ear
+
+# Python-related
+*.pyc
+*.pyo
+__pycache__/
+
+# JavaScript / Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Java-related
+target/
+*.jar
+*.war
+*.ear
+
+# Maven-specific
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle-specific
+.gradle/
+build/
+
+# Project archives
+#*.tar
+#*.zip
+#*.gz
+#*.rar
+
+# Log files
+*.log
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.swp
+
+# UML diagrams and image files
+#*.drawio
+#*.png
+#*.jpg
+#*.svg
+
+# JavaScript / TypeScript output
+dist/
+out/
+
+# IDE binary output
+out/
+bin/
+
+# Additional generated files
+generated-sources/
+annotations/
+
+# Maven status
+maven-status/
+
+# JavaScript library
+lib/
+
+# Test files
+test-coverage/
+test-output/

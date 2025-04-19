@@ -1,0 +1,111 @@
+The Timeless Temple
+
+::Beginnings
+You find yourself at the entrance of a mysterious, ancient temple. A stone door blocks your path.
+[Push the door open](InsideTemple)
+[Inspect the surroundings first](OutsideTemple)
+
+::InsideTemple
+The stone door grinds open. A dimly lit corridor stretches into the darkness.
+[Proceed down the corridor](Corridor)
+[Go back](Beginnings)
+
+::OutsideTemple
+You take a moment to observe the carvings on the temple walls. They depict a time-turning artifact.
+[Attempt to decipher more of the carvings](DecipherCarvings)
+[Enter the temple](InsideTemple)
+
+::Corridor
+As you move deeper into the temple, the air grows colder. You see a faint light emanating from a door at the end.
+[Move towards the light](SacredRoom)
+[Investigate the dark corners of the corridor](DarkCorridor)
+
+::DecipherCarvings
+You manage to understand the carvings - they speak of a hidden chamber where the artifact is kept.
+[Enter the temple, armed with new knowledge](InsideTemple)
+
+::SacredRoom
+You've found the hidden chamber, and at the center of it rests a glowing artifact. It's the time-turning relic.
+[Take the artifact](GrabArtifact)
+[Leave the artifact, sensing danger](LeaveArtifact)
+
+::DarkCorridor
+In the darkness, you trip over a hidden switch. A secret passage opens.
+[Enter the secret passage](SecretChamber)
+[Go back](Corridor)
+
+::SecretChamber
+In this secret chamber, you find an old scroll that contains a spell to control the artifact.
+[Take the scroll and go to the hidden chamber](SacredRoom)
+[Leave the scroll](Corridor)
+
+::GrabArtifact
+As you reach out to grab the artifact, time starts to shift around you. Suddenly, you're standing in the temple, but it's in its full glory, not a ruin anymore.
+[Search for a way back](LostInTime)
+[Explore this ancient time](ExplorePast)
+
+::LeaveArtifact
+Deciding it's too risky, you start to leave. Just then, the ground shakes and the temple starts to crumble.
+[Escape the temple](TempleEscape)
+[Try to stabilize the artifact](GrabArtifact)
+
+::LostInTime
+You are lost in time, unsure how to return to your own time. You see people around you, living as they did in the past.
+[Attempt to blend in](BlendIn)
+[Try to find the temple in this time](FindTemple)
+
+::ExplorePast
+Immersed in the ancient world, you start to learn their ways, their stories. You find happiness here.
+[Stay in the past](EndLiveInPast)
+[Try to find a way back](LostInTime)
+
+::TempleEscape
+The temple crumbles around you as you narrowly escape. You're safe, but the artifact remains inside.
+[You survived](EndSurvived)
+[Attempt to go back for the artifact](InsideTemple)
+
+::BlendIn
+You try to blend in, but the people are suspicious of your strange clothes and speech. They banish you to the wilderness.
+[Live in the wilderness](EndLiveInWilderness)
+[Try to convince them you're a god](ConvinceGodhood)
+
+::FindTemple
+You locate the temple in this era. It is majestic, and the artifact rests inside, in a sacred chamber guarded by priests.
+[Try to steal the artifact](StealArtifact)
+[Reveal your purpose to the priests](RevealPurpose)
+
+::StealArtifact
+You try to steal the artifact but get caught. The guards imprison you.
+[Stay imprisoned](EndImprisoned)
+[Plan an escape](PlanEscape)
+
+::RevealPurpose
+You reveal your purpose to the priests. They believe you and help you use the artifact to return to your time.
+[Return to your time](EndReturned)
+
+::PlanEscape
+You plan an elaborate escape, but it fails, and your punishment is increased.
+[Stay imprisoned](EndImprisoned)
+
+::ConvinceGodhood
+Your attempts to convince them of your divinity fail miserably. You're labeled a madman and shunned.
+[Live in exile](EndExiled)
+
+::EndLiveInPast
+You decide to stay in the past and live among the ancient people. You lead a simple but fulfilling life.
+
+::EndSurvived
+You survived the temple's collapse but can't shake the thought of what could've been if you had grabbed the artifact.
+
+::EndLiveInWilderness
+You live out your days in the wilderness, learning to survive and appreciate the beauty of nature.
+
+::EndImprisoned
+You spend the rest of your days in the prison, wondering what could have been if you had handled things differently.
+
+::EndReturned
+You return to your time, the experience leaving you wiser and more appreciative of the world around you.
+
+::EndExiled
+You spend your days in exile, wondering how things might have been different if you'd made other choices.
+

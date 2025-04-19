@@ -1,0 +1,9 @@
+@Backend_HostAddress = http://localhost:5240
+
+### Compile code
+POST {{Backend_HostAddress}}/api/compilation/compile
+Content-Type: application/json
+
+{
+  "code": "#include<stdio.h>\nint main() { printf(\"Hello, World!\"); return 0; }"
+}

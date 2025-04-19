@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ak_03_csharp_client", "ak_03_csharp_client\ak_03_csharp_client.csproj", "{990C8675-E41A-481A-8254-EB191F18E520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{990C8675-E41A-481A-8254-EB191F18E520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990C8675-E41A-481A-8254-EB191F18E520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990C8675-E41A-481A-8254-EB191F18E520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990C8675-E41A-481A-8254-EB191F18E520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

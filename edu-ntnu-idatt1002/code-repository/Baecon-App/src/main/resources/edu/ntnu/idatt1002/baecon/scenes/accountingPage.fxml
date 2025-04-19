@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane minHeight="500.0" minWidth="800.0" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ntnu.idatt1002.baecon.controller.AccountingPageController">
+  <top>
+    <HBox alignment="CENTER_RIGHT" maxWidth="1770.0" prefHeight="50.0" prefWidth="200.0" spacing="20.0" BorderPane.alignment="CENTER_LEFT">
+      <GridPane prefHeight="50.0" HBox.hgrow="ALWAYS">
+        <columnConstraints>
+          <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" maxWidth="160.0" minWidth="10.0" prefWidth="244.66668701171875" />
+          <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="160.0" />
+          <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="10.0" />
+          <ColumnConstraints halignment="LEFT" hgrow="NEVER" minWidth="10.0" prefWidth="160.0" />
+          <ColumnConstraints halignment="LEFT" hgrow="NEVER" minWidth="10.0" prefWidth="160.0" />
+          <ColumnConstraints halignment="LEFT" hgrow="NEVER" minWidth="10.0" prefWidth="110.0" />
+          <ColumnConstraints halignment="LEFT" hgrow="NEVER" minWidth="10.0" prefWidth="110.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+        </rowConstraints>
+        <Text accessibleHelp="Accounting page, showing accounted incomes and expenses by month and year" accessibleRoleDescription="Page title" accessibleText="Accounting page" strokeType="OUTSIDE" strokeWidth="0.0" text="Accounting" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+          <font>
+            <Font size="26.0" />
+          </font>
+          <GridPane.margin>
+            <Insets left="20.0" />
+          </GridPane.margin>
+        </Text>
+        <Button fx:id="editEntryButton" accessibleHelp="Opens new window to edit the input on a selected entry" accessibleRoleDescription="Button, opens a new pop-up window" accessibleText="Edit entry" disable="true" mnemonicParsing="false" onAction="#onEditEntry" prefHeight="30.0" prefWidth="100.0" text="Edit …" GridPane.columnIndex="6" />
+        <Button accessibleHelp="Opens new window to input expense info" accessibleRoleDescription="Button, opens a new pop-up window" accessibleText="Add new expense entry" mnemonicParsing="false" onAction="#onAddNewExpense" prefHeight="30.0" prefWidth="150.0" text="Add Expense …" GridPane.columnIndex="5" />
+        <Button accessibleHelp="Opens new window to input income info" accessibleRoleDescription="Button, opens a new pop-up window" accessibleText="Add new income entry" mnemonicParsing="false" onAction="#onAddNewIncome" prefHeight="30.0" prefWidth="150.0" text="Add Income …" GridPane.columnIndex="4" />
+        <ComboBox fx:id="yearPicker" accessibleHelp="Select a year to display accounting info" accessibleRoleDescription="Combobox, dropdown, year picker" accessibleText="Year selector combobox" prefHeight="30.0" prefWidth="100.0" GridPane.columnIndex="1">
+          <GridPane.margin>
+            <Insets left="50.0" />
+          </GridPane.margin>
+        </ComboBox>
+        <Text accessibleHelp="Select a year in the dropdown combobox to the right" accessibleRoleDescription="Label" accessibleText="Year" strokeType="OUTSIDE" strokeWidth="0.0" text="Year" GridPane.columnIndex="1">
+          <font>
+            <Font size="16.0" />
+          </font>
+        </Text>
+        <Button fx:id="deleteEntryButton" accessibleHelp="Opens new window to delete the selected entry" accessibleRoleDescription="Button, opens a new pop-up window" accessibleText="Delete entry" disable="true" mnemonicParsing="false" onAction="#onDeleteEntry" prefHeight="30.0" prefWidth="100.0" text="Delete" GridPane.columnIndex="7" />
+        <Text accessibleHelp="Select a month in the dropdown combobox to the right" accessibleRoleDescription="Label" accessibleText="Month" strokeType="OUTSIDE" strokeWidth="0.0" text="Month" GridPane.columnIndex="2">
+          <font>
+            <Font size="16.0" />
+          </font>
+          <GridPane.margin>
+            <Insets left="20.0" />
+          </GridPane.margin>
+        </Text>
+        <ComboBox fx:id="monthPicker" accessibleHelp="Select a month to display accounting info for" accessibleRoleDescription="Combobox, dropdown, month picker" accessibleText="Month selector combobox" prefHeight="30.0" prefWidth="160.0" GridPane.columnIndex="2">
+          <GridPane.margin>
+            <Insets left="80.0" />
+          </GridPane.margin>
+        </ComboBox>
+      </GridPane>
+    </HBox>
+  </top>
+  <bottom>
+    <AnchorPane prefHeight="36.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <GridPane layoutX="27.0" layoutY="2.0" prefHeight="30.0" prefWidth="900.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="120.0" prefWidth="120.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="160.0" prefWidth="160.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="130.0" prefWidth="130.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="160.0" prefWidth="160.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="110.0" prefWidth="120.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="160.0" prefWidth="160.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <Text accessibleHelp="Label for summary of expense entries. Actual sum shown to the right." accessibleRoleDescription="Label" accessibleText="Sum expenses" strokeType="OUTSIDE" strokeWidth="0.0" text="Sum Expenses:" GridPane.columnIndex="2">
+          <font>
+            <Font size="16.0" />
+          </font>
+          <GridPane.margin>
+            <Insets />
+          </GridPane.margin>
+        </Text>
+        <Text accessibleHelp="Label for summary of income entries. Actual sum shown to the right." accessibleRoleDescription="Label" accessibleText="Sum incomes" strokeType="OUTSIDE" strokeWidth="0.0" text="Sum Incomes:">
+          <font>
+            <Font size="16.0" />
+          </font>
+          <GridPane.margin>
+            <Insets />
+          </GridPane.margin>
+        </Text>
+        <Text accessibleHelp="Label for summary of result, i.e. expenses versus incomes. Actual sum shown to the right." accessibleRoleDescription="Label" accessibleText="Result sum" strokeType="OUTSIDE" strokeWidth="0.0" text="Result:" GridPane.columnIndex="4" GridPane.halignment="RIGHT">
+          <font>
+            <Font size="16.0" />
+          </font>
+          <GridPane.margin>
+            <Insets right="10.0" />
+          </GridPane.margin>
+        </Text>
+        <Text fx:id="sumExpensesText" strokeType="OUTSIDE" strokeWidth="0.0" text="0,00" GridPane.columnIndex="3">
+          <font>
+            <Font size="16.0" />
+          </font>
+        </Text>
+        <Text fx:id="sumIncomesText" strokeType="OUTSIDE" strokeWidth="0.0" text="0,00" GridPane.columnIndex="1">
+          <font>
+            <Font size="16.0" />
+          </font>
+        </Text>
+        <Text fx:id="resultText" strokeType="OUTSIDE" strokeWidth="0.0" text="0,00" GridPane.columnIndex="5">
+          <font>
+            <Font size="16.0" />
+          </font>
+        </Text>
+      </GridPane>
+    </AnchorPane>
+  </bottom>
+  <center>
+    <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+      <TableView fx:id="accountingEntriesTableView" accessibleHelp="Table showing all accounting entries for the selected month. Columns in table: Date, Description, Category, Income and Expense" accessibleRoleDescription="Accounting table" accessibleText="Table view, accounting" prefWidth="1280.0" VBox.vgrow="ALWAYS">
+        <columns>
+          <TableColumn fx:id="accountingDateColumn" prefWidth="75.0" text="Date" />
+          <TableColumn fx:id="accountingDescriptionColumn" prefWidth="75.0" text="Description" />
+          <TableColumn fx:id="accountingCategoryColumn" prefWidth="75.0" text="Category" />
+          <TableColumn fx:id="accountingIncomeColumn" prefWidth="75.0" style="-fx-alignment: CENTER-RIGHT;" text="Income" />
+          <TableColumn fx:id="accountingExpenseColumn" prefWidth="75.0" style="-fx-alignment: CENTER-RIGHT;" text="Expense" />
+               <TableColumn fx:id="accountingDocumentColumn" prefWidth="75.0" style="-fx-alignment: CENTER-RIGHT;" text="Document" />
+        </columns>
+        <columnResizePolicy>
+          <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+        </columnResizePolicy>
+      </TableView>
+    </VBox>
+  </center>
+</BorderPane>

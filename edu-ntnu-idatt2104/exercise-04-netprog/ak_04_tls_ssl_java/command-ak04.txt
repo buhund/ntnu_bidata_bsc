@@ -1,0 +1,6 @@
+keytool -genkey -alias signFiles -keyalg RSA -keystore examplestore
+javac JavaSSLServer.java
+javac JavaSSLClient.java
+
+java -Djavax.net.ssl.keyStore=examplestore -Djavax.net.ssl.keyStorePassword=password JavaSSLServer
+java -Djavax.net.ssl.trustStore=examplestore -Djavax.net.ssl.trustStorePassword=password JavaSSLClient

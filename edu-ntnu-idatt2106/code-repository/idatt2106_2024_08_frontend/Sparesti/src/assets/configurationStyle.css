@@ -1,0 +1,17 @@
+/* src/assets/configurationStyle.css */
+
+.home-content {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, serif;
+    align-items: center;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    background-color: #ebe9fb;
+}

@@ -1,0 +1,7 @@
+class=src/main/resources/characterModels/space_master-ji-01.png
+startingItem=The Blaster
+charName=Hans Olo
+startHP=100
+startScore=90
+startGold=90
+story=src/main/resources/story/Lonk and the Troll v1 - OC.paths

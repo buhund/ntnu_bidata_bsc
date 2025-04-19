@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import edu.ntnu.idatt1002.baecon.components.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ntnu.idatt1002.baecon.controller.AddAccountingEntryController">
+  <HBox spacing="8.0">
+    <Text fx:id="titleEntryText" accessibleHelp="Pop-up window for inputting information about a new income or expense for accounting" accessibleRoleDescription="Window title" accessibleText="New accounting entry pop-up window" strokeType="OUTSIDE" strokeWidth="0.0" text="New Income">
+      <font>
+        <Font name="System Bold" size="30.0" />
+      </font>
+      <HBox.margin>
+        <Insets left="8.0" />
+      </HBox.margin>
+    </Text>
+    <VBox.margin>
+      <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+    </VBox.margin>
+  </HBox>
+  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+    <VBox.margin>
+      <Insets left="8.0" right="8.0" top="8.0" />
+    </VBox.margin>
+    <Label accessibleHelp="Date label, input date below" accessibleRoleDescription="Label" accessibleText="Date" contentDisplay="CENTER" text="Date">
+      <font>
+        <Font name="System Bold" size="16.0" />
+      </font>
+      <HBox.margin>
+        <Insets left="8.0" />
+      </HBox.margin>
+    </Label>
+  </HBox>
+  <HBox prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+    <VBox.margin>
+      <Insets bottom="8.0" left="16.0" right="8.0" />
+    </VBox.margin>
+    <VBox>
+      <DatePicker fx:id="datePicker" accessibleHelp="Pick a date for the new entry" accessibleText="Date picker" editable="false" prefHeight="27.0" prefWidth="118.0" promptText="30.01.2023" showWeekNumbers="true">
+        <HBox.margin>
+          <Insets left="8.0" />
+        </HBox.margin>
+      </DatePicker>
+      <Text fx:id="dateErrorMessage" />
+    </VBox>
+  </HBox>
+  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+    <VBox.margin>
+      <Insets left="8.0" right="8.0" top="8.0" />
+    </VBox.margin>
+    <Label accessibleHelp="Label, input amount below" accessibleText="Amount" contentDisplay="CENTER" text="Amount">
+      <font>
+        <Font name="System Bold" size="16.0" />
+      </font>
+      <HBox.margin>
+        <Insets left="8.0" />
+      </HBox.margin>
+    </Label>
+  </HBox>
+  <HBox prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+    <VBox.margin>
+      <Insets bottom="8.0" left="16.0" right="8.0" />
+    </VBox.margin>
+    <VBox>
+      <NumberAndPunctuationTextField fx:id="textFieldAmount" accessibleHelp="Input area for monetary amount. Positive numbers only. Two decimal places. Decimal separator: decimal point." accessibleText="Input amount here" prefHeight="30.0" prefWidth="216.0" promptText="Input a monetary amount here">
+        <HBox.margin>
+          <Insets left="16.0" />
+        </HBox.margin>
+      </NumberAndPunctuationTextField>
+      <Text fx:id="expectedAmountErrorMessage" />
+    </VBox>
+    <Text fx:id="currencyText">
+      <font>
+        <Font size="16.0" />
+      </font>
+      <HBox.margin>
+        <Insets top="6.0" />
+      </HBox.margin>
+    </Text>
+  </HBox>
+  <HBox alignment="CENTER_LEFT" spacing="8.0">
+    <VBox.margin>
+      <Insets right="8.0" top="8.0" />
+    </VBox.margin>
+    <Label accessibleHelp="Label above input field" accessibleText="Description" contentDisplay="CENTER" text=" Description">
+      <font>
+        <Font name="System Bold" size="16.0" />
+      </font>
+      <HBox.margin>
+        <Insets left="16.0" />
+      </HBox.margin>
+    </Label>
+  </HBox>
+  <HBox prefHeight="127.0" prefWidth="343.0" spacing="8.0">
+    <VBox.margin>
+      <Insets bottom="8.0" left="16.0" right="8.0" />
+    </VBox.margin>
+    <VBox>
+      <TextField fx:id="descriptionTextField" accessibleHelp="Input entry description here" accessibleText="Text field" prefHeight="96.0" prefWidth="384.0" promptText="Write a description of the entry">
+        <HBox.margin>
+          <Insets left="8.0" right="8.0" top="8.0" />
+        </HBox.margin>
+      </TextField>
+      <Text fx:id="descriptionErrorMessage" />
+    </VBox>
+  </HBox>
+  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+    <VBox.margin>
+      <Insets left="8.0" right="8.0" top="8.0" />
+    </VBox.margin>
+    <Label accessibleHelp="Label, select a category for the entry using the combobox below" accessibleText="Category name" text="Category name">
+      <font>
+        <Font name="System Bold" size="16.0" />
+      </font>
+      <HBox.margin>
+        <Insets left="8.0" />
+      </HBox.margin>
+    </Label>
+  </HBox>
+  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+    <VBox.margin>
+      <Insets bottom="8.0" left="8.0" right="8.0" />
+    </VBox.margin>
+    <ComboBox fx:id="categoryNameComboBox" accessibleHelp="Dropdown combobox for selecting a category" accessibleRoleDescription="Combobox, dropdown, category picker" accessibleText="Category dropdown combobox" prefWidth="150.0" promptText="categories">
+      <HBox.margin>
+        <Insets left="8.0" />
+      </HBox.margin>
+    </ComboBox>
+  </HBox>
+  <HBox prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+    <VBox.margin>
+      <Insets left="8.0" right="8.0" top="8.0" />
+    </VBox.margin>
+    <Label accessibleHelp="Label. Add receipt via button below" accessibleText="Receipts" text="Receipt">
+      <font>
+        <Font name="System Bold" size="16.0" />
+      </font>
+      <HBox.margin>
+        <Insets left="8.0" />
+      </HBox.margin>
+    </Label>
+  </HBox>
+  <HBox prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+    <VBox.margin>
+      <Insets bottom="8.0" left="8.0" right="8.0" />
+    </VBox.margin>
+    <Button fx:id="chooseFileButton" accessibleHelp="Opens system dialog for picking file to attach" accessibleText="Choose file to attach" mnemonicParsing="false" text="Choose file …">
+      <HBox.margin>
+        <Insets left="8.0" />
+      </HBox.margin>
+    </Button>
+  </HBox>
+  <HBox>
+    <Label fx:id="receiptFileNameLabel" accessibleText="File name, if file is selected" text="No file chosen">
+      <HBox.margin>
+        <Insets left="16.0" />
+      </HBox.margin>
+    </Label>
+  </HBox>
+  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+    <VBox.margin>
+      <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+    </VBox.margin>
+    <Label accessibleHelp="Left of checkbox" accessibleText="Repeat" text="Repeat">
+      <font>
+        <Font name="System Bold" size="16.0" />
+      </font>
+      <opaqueInsets>
+        <Insets />
+      </opaqueInsets>
+      <HBox.margin>
+        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+      </HBox.margin>
+    </Label>
+    <CheckBox fx:id="repeatCheckBox" accessibleText="Checbox for setting recurrence" mnemonicParsing="false" />
+  </HBox>
+  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+    <VBox.margin>
+      <Insets bottom="8.0" left="8.0" right="8.0" />
+    </VBox.margin>
+    <padding>
+      <Insets left="8.0" />
+    </padding>
+    <ComboBox fx:id="repeatComboBox" accessibleHelp="Weekly, Monthly, Quarterly, Yearly" accessibleText="Select which frequency to repeat the entry" prefWidth="150.0" promptText="Repeat" visibleRowCount="4" />
+  </HBox>
+  <GridPane prefHeight="100.0" prefWidth="200.0">
+    <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="192.0" minWidth="10.0" prefWidth="191.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="114.0" minWidth="10.0" prefWidth="80.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="94.0" minWidth="10.0" prefWidth="80.0" />
+    </columnConstraints>
+    <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <Button fx:id="cancelEntryButton" accessibleHelp="Cancel the entry and close dialog" accessibleText="Cancel" cancelButton="true" mnemonicParsing="false" onAction="#cancelEntryButtonAction" text="Cancel" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+      <font>
+        <Font size="16.0" />
+      </font>
+      <GridPane.margin>
+        <Insets bottom="4.0" />
+      </GridPane.margin>
+    </Button>
+    <Button accessibleHelp="Confirm and add entry" accessibleText="OK" mnemonicParsing="false" onAction="#addNewAccountingEntry" prefHeight="23.0" prefWidth="60.0" text="OK" GridPane.columnIndex="1">
+      <font>
+        <Font size="16.0" />
+      </font>
+      <GridPane.margin>
+        <Insets bottom="4.0" />
+      </GridPane.margin>
+    </Button>
+  </GridPane>
+</VBox>

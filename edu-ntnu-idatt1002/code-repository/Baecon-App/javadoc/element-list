@@ -1,0 +1,9 @@
+edu.ntnu.idatt1002.baecon
+edu.ntnu.idatt1002.baecon.components
+edu.ntnu.idatt1002.baecon.controller
+edu.ntnu.idatt1002.baecon.data
+edu.ntnu.idatt1002.baecon.factory
+edu.ntnu.idatt1002.baecon.listeners
+edu.ntnu.idatt1002.baecon.readersAndWriters
+edu.ntnu.idatt1002.baecon.scenes
+edu.ntnu.idatt1002.baecon.utilities

@@ -1,0 +1,108 @@
+# Compiled source files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+CMakeLists.txt.user
+Testing/
+CTestTestfile.cmake
+
+# CLion specific files
+.idea/
+cmake-build-*/
+
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.apdisk
+
+# KDE related files (Kubuntu/Linux)
+.kate-swp
+*.kate-swp
+
+# Backup files
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+*.tmp
+*.old
+
+# Kubuntu / Linux system files
+.cache/
+.config/
+.local/
+*.kate-swp
+*.kde-cache
+
+# Ubuntu specific files
+.snap/
+.vscode-server/
+.cache/
+.local/share/recently-used.xbel
+.local/share/gvfs-metadata/
+gvfs.log
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.apdisk
+
+# Rust generated files
+*.rlib
+*.lock
+Cargo.lock
+target/
+
+# Rust tool specific
+.rustup/
+.cargo/
+
+# Rust Rover specific files
+.idea/
+target/
+*.iml
+*.ipr
+*.iws
+
+# System file backups (for all environments)
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+*.tmp
+*.old
+*.lock

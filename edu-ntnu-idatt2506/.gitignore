@@ -1,0 +1,92 @@
+# macOS system files
+.DS_Store
+
+# Linux system files
+*~
+
+# Kubuntu specific files
+*.directory
+*.backup
+.kde
+.kate-swp
+.kateconfig
+
+# Android Studio specific files
+**/*.iml
+**/.gradle/
+**/local.properties
+**/.idea/
+**/build/
+**/captures/
+**/output.json
+**/.navigation/
+**/.cxx/
+**/.externalNativeBuild/
+
+# Android Studio lint and asset wizard files
+**/lint/intermediates/
+**/lint/generated/
+**/lint/output/
+**/.idea/assetWizardSettings.xml
+
+# Build outputs (general exclusion of all build directories)
+**/build/
+
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm, CLion, etc.)
+**/.idea/
+**/*.iws
+**/*.iml
+**/*.ipr
+**/out/
+
+# Gradle files
+gradlew
+gradlew.bat
+gradle.properties
+**/gradle/wrapper/gradle-wrapper.properties
+**/gradle/wrapper/gradle-wrapper.jar
+
+# Keystore files (for Android signing)
+*.jks
+*.keystore
+
+# Python-specific (for any Python files)
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/*.egg
+**/*.egg-info/
+**/dist/
+**/build/
+**/env/
+**/venv/
+**/ENV/
+**/.mypy_cache/
+**/.pytest_cache/
+**/*.sqlite3
+
+# CMake files for CLion and similar IDEs
+**/CMakeLists.txt.user
+**/cmake-build-*/
+
+# Miniconda specific (optional, add if needed)
+miniconda3/
+*.conda
+*.ipynb_checkpoints
+envs/
+
+# Node.js specific files (if any Node projects are included)
+**/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Visual Studio Code files
+.vscode/
+
+# General configuration and environment files
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

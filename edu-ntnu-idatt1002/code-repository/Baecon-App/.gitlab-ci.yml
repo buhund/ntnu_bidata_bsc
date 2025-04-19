@@ -1,0 +1,68 @@
+image: maven:eclipse-temurin
+
+stages:
+  - build
+  - test
+  - package
+  - deploy
+
+build:
+  stage: build
+  script:
+    - mvn compile
+
+test:
+  stage: test
+  script:
+    - mvn clean test
+
+package:
+  stage: package
+  script:
+    - mvn clean package
+  artifacts:
+    paths:
+      - target/Baecon/Baecon.jar
+
+generatepdf:
+  image: ubuntu:20.04
+  stage: deploy
+  script:
+    - apt-get clean
+    - rm -rf /var/lib/apt/lists/*
+    - apt-get update
+    - apt-get install -y wget
+    - apt-get install -y fontconfig libfreetype6 libjpeg-turbo8 libpng16-16 libx11-6
+      libxcb1 libxext6 libxrender1 xfonts-75dpi xfonts-base
+    - wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb
+    - dpkg -i wkhtmltox_0.12.6-1.focal_amd64.deb
+    - apt-get -y install nodejs
+    - apt-get -y install npm
+    - npm install -g github-wikito-converter
+    - apt-get -y install git
+    - export my_url="${CI_PROJECT_URL:8}"
+    - export final_url="https://gitlab-ci-token:$CI_JOB_TOKEN@$my_url"
+    - git clone "$final_url.wiki.git"
+    - gwtc $CI_PROJECT_NAME.wiki
+    - wkhtmltopdf documentation.html wiki.pdf
+  artifacts:
+    paths:
+      - wiki.pdf
+  only:
+    - web
+
+
+# NB! Javadoc genereres IKKE under bygging av prosjektet. Man må kjøre javadoc lokalt og legge til katalogen (med navnet "javadoc")
+# til roten av prosjektet. Ellers vil denne delen feile.
+pages:
+  stage: deploy
+  script:
+    - mvn javadoc:javadoc
+    - mkdir .public
+    - cp -r javadoc/* .public
+    - mv .public public
+  artifacts:
+    paths:
+      - public
+  only:
+    - web

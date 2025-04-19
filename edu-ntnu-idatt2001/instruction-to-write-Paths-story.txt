@@ -1,0 +1,44 @@
+I want you to write an original story for a game, but it needs to follow a specific format, which I will outline here.
+
+The syntax is as follows
+
+Double colon "::" marks a passage title. E.g. ::Beginnings
+The following line contains the story text.
+The lines below the story marks the actions the player can take to advance the story. Each [Sometext](othertext) marks a link to another passage, where [] desscribes the action taken, and () contains the name of the passage which follows. There can be two to four such choices/actions.
+
+Here is an example:
+
+´´´paths
+Haunted House
+
+::Beginnings
+You are in a small, dimly lit room. There is a door in front of you.
+[Try to open the door](Another room)
+[Knock on the door](Knock Knock)
+
+::Another room
+The door opens to another room. You see a desk with a large, dusty book.
+[Open the book](The book of spells)
+[Go back](Beginnings)
+
+::Knock Knock
+You knock the door. And someone answers in a raspy voice, but you cant make out what they say.
+[Espace](Flee)
+[Hide behind the couch](Hide)
+
+::Hide
+You get so scared that you hide behind the couch. You sit there so long that you die from thirst.
+[You died](End)
+
+::Flee
+You run out the front door as fast as you can. Unfortunately, you trip on the garden gnome, vault forward and find yourself skewered on a pitch fork.
+[You died](End)
+
+::End
+You died. Such is life.
+´´´
+
+
+
+
+Do you understand the structure?

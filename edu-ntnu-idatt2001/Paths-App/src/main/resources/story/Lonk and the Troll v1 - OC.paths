@@ -1,0 +1,45 @@
+Lonk and the Troll v1
+
+::Beginnings
+You are in a huge forest. You don't know how you got there, or how to get out. You see a clearing ahead of you.
+[Turn around and flee](Cliff)
+[Enter the clearing](Forest Clearing)
+
+::Cliff
+You've seen this film before, so you run the other direction as fast as your legs can manage. Unfortunately, you don't pay attention to where you're going, and suddenly find yourself in freefall over the edge of a cliff.
+[You Died](You Died)
+
+::Forest Clearing
+In the clearing, you find yourself face to face with a huge troll. It doesn't look too happy wth you disturbing it during dinner.
+[Panic and flee](Cliff)
+[Greet the troll](Friendly)
+[Attack the troll](Attack)
+
+::Friendly
+"Grrrkh-blork khrmk ott rkkr-huksmoolrrrrv", you say in greeting to the troll while doing a sideways snaking motion. "I see that I have happened upon your camp, and would request guest rights and to partake in your evening meal."
+Since trolls holds guest-host rituals to be of incredible importance, so as to not offend the gods, the troll invites you to share the meal. You discover that you're both collectors of rare minerals and become BFFs. The troll is so happy now that it starts to radiate Loving Kindness and turns into a carrot.
+[Carrot](Carrot)
+
+::Attack
+The best defence is a strong offence, someone said once. You draw your blade and charge troll! The troll just rolls his...her...its..? eyes, and lazily lifts its huge club, and suddenly charge at you at an amazing speed!
+Your mind flashes to the teachings of Sensei Houlihan, and you realize that your only chance is to remember the Five D's! But what were they?!
+[Dodge, Duck, Dip, Dive, Dodge!](FiveD)
+[Dodge, Duck, Dip, Dive, Duck!](Crushed)
+[Dodge, Duck, Dip, Dive, Dip!](Crushed)
+[Dodge, Duck, Dip, Dive, Dive!](Crushed)
+
+::Crushed
+You didn't remember the final D! It was Dodge! But now it's too late, and you are crushed beneath the troll's club.
+[You Died](You Died)
+
+::FiveD
+Yes! You executed a perfect Five D Evasive Maneuver, and evaded the troll's attack. You poke the troll with your sword and it starts to bleed. The troll, being allergic to seeing it's own blood, turns into a carrot instantly.
+[Carrot](Carrot)
+
+::You Died
+You died. You must git gudder.
+
+::Carrot
+You acquired the Carrot of Ultimate Destiny and henceforth you shall be know as Galactic President Superstar McAwesomeville.
+[The End](The End)
+

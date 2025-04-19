@@ -1,0 +1,51 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: teal;
+  transition: 0.4s;
+  padding: 3px;
+  font-weight: 500;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(34, 100%, 70%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  .LogoArea{
+    grid-area: Logo;
+  }
+
+  .FuncArea{
+    grid-area: Func;
+    background-color: antiquewhite;
+    border: 3px solid #000;
+  }
+
+  body {
+    display: flex;
+    place-items: center;
+    background-color: darkslategray;
+    background-image: url("ufo.webp");
+  }
+
+  #app {
+    display: grid;
+    grid-template-areas:
+  'Logo Func'
+  ;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}

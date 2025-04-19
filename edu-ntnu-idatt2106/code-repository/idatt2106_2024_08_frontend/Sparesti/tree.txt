@@ -1,0 +1,159 @@
+.
+├── cypress
+│   ├── e2e
+│   │   ├── components
+│   │   │   ├── GoBackButton.cy.js
+│   │   │   └── NavBar.cy.js
+│   │   ├── jsconfig.json
+│   │   └── views
+│   │       ├── BadgesView.cy.js
+│   │       ├── ChallengeConfig.cy.js
+│   │       ├── ChangeOfHabitView.cy.js
+│   │       ├── ConfigurationView.cy.js
+│   │       ├── EditPasswordView.cy.js
+│   │       ├── ForgotPasswordView.cy.js
+│   │       ├── GoalconfigView.cy.js
+│   │       ├── HomeView.cy.js
+│   │       ├── LoginView.cy.js
+│   │       ├── LoginWithPasswordView.cy.js
+│   │       ├── OverviewView.cy.js
+│   │       ├── ProfileView.cy.js
+│   │       ├── RegisterView.cy.js
+│   │       ├── SparestiView.cy.js
+│   │       └── UploadFileConfigView.cy.js
+│   ├── fixtures
+│   │   └── example.json
+│   └── support
+│       ├── commands.js
+│       └── e2e.js
+├── cypress.config.js
+├── dist
+│   ├── assets
+│   │   ├── axios-Cm0UX6qg.js
+│   │   ├── baseStyle-oMKWZZ-u.css
+│   │   ├── ChallengeView-DCVyHsG5.css
+│   │   ├── ChallengeView-Doa3soAE.js
+│   │   ├── chart-CDcNuTNj.js
+│   │   ├── configurationStyle-BB-jCnhR.css
+│   │   ├── ConfigurationView-DRbk0gs7.js
+│   │   ├── ConfigurationView-o9tGAcdH.css
+│   │   ├── CreateSavingsGoalConfigurationView-CDeZns4B.js
+│   │   ├── CreateSavingsGoalConfigurationView-CKlXvCp2.css
+│   │   ├── EditKnowlegde-BroK5FnB.js
+│   │   ├── EditKnowlegde-Dgya5mL9.css
+│   │   ├── EditPasswordView-C3IoZQL5.css
+│   │   ├── EditPasswordView-f5DOgV8V.js
+│   │   ├── EditProfileView-4atwj5ao.js
+│   │   ├── EditProfileView-CwUDHb2w.css
+│   │   ├── ForgotPasswordView-Bq8jZJcx.css
+│   │   ├── ForgotPasswordView-DL64Wfae.js
+│   │   ├── GetChallenge-BMK3X890.js
+│   │   ├── GetChallengeConfigView-CWLM1Wei.css
+│   │   ├── GetChallengeConfigView-qwchjEnu.js
+│   │   ├── GetChallenge-Dfa6hpqP.css
+│   │   ├── goal-CQBHuCAs.js
+│   │   ├── GoalItem-DnSMHE5K.js
+│   │   ├── GoalItem-kkFyVt4X.css
+│   │   ├── GoalsView-BQKHKldV.css
+│   │   ├── GoalsView-BwUxS6F0.js
+│   │   ├── HomeView-DtW7ZBgK.js
+│   │   ├── httputils-0tl6qC22.js
+│   │   ├── index-CWVWdIaL.js
+│   │   ├── index.esm-BQ7r5GQE.js
+│   │   ├── index--VWOEr4O.css
+│   │   ├── loginStyle-BiKkXF_w.css
+│   │   ├── loginStyle-ZE8PhNjk.js
+│   │   ├── LoginWithPasswordView-Bh2rjHHb.js
+│   │   ├── LoginWithPasswordView-CdzYHWpZ.css
+│   │   ├── NavBar-B2MYh0mE.js
+│   │   ├── NavBar-D8F-Mqwy.css
+│   │   ├── OverviewView-Bm8AqEBi.js
+│   │   ├── OverviewView-DSu03Gx4.css
+│   │   ├── ProfileView-8lmBzt-w.js
+│   │   ├── ProfileView-BFB22l_7.css
+│   │   ├── RegisterView-CyME3PWU.css
+│   │   ├── RegisterView-DLEkbpaJ.js
+│   │   ├── sparesti_logo-CnK16TTe.png
+│   │   ├── SparestiView-BpoRRs_K.js
+│   │   ├── SparestiView-Cnyh6uBS.css
+│   │   ├── token-Cfw4qG7q.js
+│   │   └── UploadFileConfigurationView-BuOMd-EM.js
+│   ├── favicon.ico
+│   └── index.html
+├── index.html
+├── jsconfig.json
+├── package.json
+├── package-lock.json
+├── public
+│   └── favicon.ico
+├── README.md
+├── src
+│   ├── App.vue
+│   ├── assets
+│   │   ├── badges_logo.svg
+│   │   ├── baseStyle.css
+│   │   ├── black-star-empty-icon.svg
+│   │   ├── black-star-icon.svg
+│   │   ├── configurationStyle.css
+│   │   ├── go_back_logo.png
+│   │   ├── grey-star-empty-icon.svg
+│   │   ├── grey-star-icon.svg
+│   │   ├── home_logo.svg
+│   │   ├── loginStyle.css
+│   │   ├── overview_logo.svg
+│   │   ├── profile_logo.svg
+│   │   ├── red-trash-icon.svg
+│   │   ├── sparesti_logo.png
+│   │   ├── sparesti_menu_logo.svg
+│   │   ├── trash-icon.svg
+│   │   ├── yellow-star-black-border-icon.svg
+│   │   └── yellow-star-icon.svg
+│   ├── components
+│   │   ├── BadgeItem.vue
+│   │   ├── ChallengeCircle.vue
+│   │   ├── ChallengeItem.vue
+│   │   ├── ChangeOfHabit.vue
+│   │   ├── CreateGoalPopup.vue
+│   │   ├── CreateSavingsGoal.vue
+│   │   ├── EditPasswordInputElement.vue
+│   │   ├── GetChallenge.vue
+│   │   ├── GetNewChallengeCircle.vue
+│   │   ├── GoalItem.vue
+│   │   ├── GoalStar.vue
+│   │   ├── GoBackButton.vue
+│   │   ├── Knowledge.vue
+│   │   ├── MakeNewGoalStar.vue
+│   │   ├── NavBar.vue
+│   │   ├── NewsComponent.vue
+│   │   └── UploadFile.vue
+│   ├── main.js
+│   ├── router
+│   │   └── index.js
+│   ├── stores
+│   │   ├── counter.js
+│   │   ├── goal.js
+│   │   ├── registering.js
+│   │   └── token.js
+│   ├── utils
+│   │   └── httputils.js
+│   └── views
+│       ├── BadgesView.vue
+│       ├── ChangeOfHabitConfigView.vue
+│       ├── ConfigurationView.vue
+│       ├── CreateSavingsGoalConfigurationView.vue
+│       ├── EditPasswordView.vue
+│       ├── ForgotPasswordView.vue
+│       ├── GetChallengeConfigView.vue
+│       ├── HomeView.vue
+│       ├── LoginView.vue
+│       ├── LoginWithPasswordView.vue
+│       ├── OverviewView.vue
+│       ├── ProfileView.vue
+│       ├── RegisterView.vue
+│       ├── SparestiView.vue
+│       └── UploadFileConfigurationView.vue
+├── tree.txt
+├── vite.config.js
+└── vitest.config.js
+
+17 directories, 140 files

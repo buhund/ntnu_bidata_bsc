@@ -1,0 +1,253 @@
+/* css/styles.css */
+
+
+
+
+
+/* Classes */
+
+.header { grid-area: header; }
+.menu { grid-area: menu; }
+.main { grid-area: main; }
+.right { grid-area: right; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header  header"
+    "menu   main    right"
+    "footer footer  footer";
+  gap: 10px;
+  margin: 0;
+  padding: 10px;
+}
+
+.header {
+  grid-area: header;
+  background-image: url(images/banner-arctic-notext.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  height: 300px;
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+}
+
+.header h1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+.menu {
+  grid-area: menu;
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 88%;
+  color: black;
+}
+
+.main {
+  grid-area: main;
+}
+
+.main h2 .main p {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 15px;
+}
+
+.right {
+  grid-area: right;
+}
+
+.right h1 .right p {
+  max-width: 100%;
+}
+
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  color: black;
+}
+
+/* Small thumbnail for social media icons */
+.footer a img {
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-winner {
+  font-size: 20px;
+  padding: 15px 30px;
+  width: 50%;
+}
+
+.button-NameGen {
+  font-size: 20px;
+  padding: 15px 30px;
+  width: 50%;
+}
+
+.incrementer-box {
+  height: 120px;
+  min-width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e5e5e5;
+  border-radius: 18px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.incrementer-box span {
+  width: 100%;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.incrementer-box span.number {
+  font-size: 50px;
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}
+
+.image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* Pseudo classes */
+
+a:visited {
+  color: #1a5952;
+}
+
+
+.hover-image {
+transition: transform 0.3s ease;
+}
+
+.hover-image:hover {
+  transform: scale(1.1);
+}
+
+.nameList {
+  font-size: 20px;
+}
+
+
+
+/* Type Selectors */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* IDs */
+#banner {
+  position: relative;
+  /*float: left;*/
+  width: 98%;
+  max-width: 1000px;
+  height: 100%;
+  max-height: 100%;
+  /*border-radius: 0;*/
+  /*border: 6px solid mediumaquamarine;*/
+}
+
+#face-pic {
+  position: relative;
+  border-radius: 120px;
+  border: 6px solid magenta;
+  float: left;
+  width: 240px;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+#visitor1millPrize {
+  display: none;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FEDE00;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Dyuthi;
+  font-size: 22px;
+}
+
+
+/* Media and responsiveness */
+
+@media only screen and (max-width: 800px) {
+  #visitor1millPrize img {
+    max-width: 100%;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "menu"
+    "main"
+    "right"
+    "footer";
+  }
+}

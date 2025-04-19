@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ntnu.idatt1002.baecon.controller.AboutDialogController">
+  <HBox maxWidth="72.0" prefHeight="72.0" prefWidth="340.0">
+    <ImageView accessibleHelp="Logo showing a flying strip of bacon with wings that looks a bit like a money boll" accessibleRoleDescription="image, logo" accessibleText="Baecon logo" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+      <Image backgroundLoading="true" url="@img/logo-transparent-no_title-02-100px.png" />
+      <HBox.margin>
+        <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+      </HBox.margin>
+    </ImageView>
+    <GridPane prefHeight="72.0" HBox.hgrow="ALWAYS">
+      <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints hgrow="ALWAYS" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="46.0" minHeight="20.0" prefHeight="46.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="26.0" minHeight="20.0" prefHeight="26.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+      <Text accessibleHelp="About page for the Baecon application" accessibleRoleDescription="Application and window title" accessibleText="Baecon" strokeType="OUTSIDE" strokeWidth="0.0" text="Baecon" wrappingWidth="252.748046875" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS">
+        <font>
+          <Font size="30.0" />
+        </font>
+      </Text>
+      <Text accessibleHelp="Baecon version number" accessibleRoleDescription="Version number" accessibleText="Baecon version number" strokeType="OUTSIDE" strokeWidth="0.0" text="Version 1.0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    </GridPane>
+  </HBox>
+  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+    <Tab closable="false" text="About">
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+        <TextArea accessibleHelp="Information about the application, including name, description of function and license." accessibleText="About" editable="false" layoutX="32.0" layoutY="-52.0" prefHeight="169.0" prefWidth="340.0" text="Beacon - Big Bærum Economy&#10;&#10;Personal budgeting and accounting software.&#10;Made for school project, NTNU IDATT1002.&#10;(C) 2023&#10;&#10;License: " wrapText="true" AnchorPane.bottomAnchor="-45.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+        <Hyperlink layoutX="57.0" layoutY="97.0" onAction="#onOpenGPLv3Page" text="GNU General Public License Version 3" />
+      </AnchorPane>
+    </Tab>
+    <Tab closable="false" text="Components">
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+        <TextArea accessibleHelp="Description of components used" accessibleText="Componetns" editable="false" layoutX="14.0" layoutY="-19.0" prefHeight="162.0" prefWidth="420.0" text="JavaFX v17.0.1&#10;Maven&#10;Java Development Kit (&quot;JDK&quot;) v17 LTS&#10;&#10;Images and logo:&#10;- &quot;Flying Happy Bacon&quot;, made by Birthe Christiansen&#10;" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      </AnchorPane>
+    </Tab>
+    <Tab closable="false" text="Authors">
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+        <TextArea accessibleHelp="Listing authors of the application" accessibleText="Authors" editable="false" layoutX="194.0" layoutY="-11.0" prefHeight="162.0" prefWidth="420.0" text="Vemund E. Røe (Lead Programmer)&#10;Lotte C. W. Aune&#10;Håkon R. Billingstad&#10;Birthe E. Christiansen&#10;John I. Eriksen&#10;&#10;" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      </AnchorPane>
+    </Tab>
+    <Tab closable="false" text="Acknowledgements">
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+        <TextArea accessibleHelp="Acknowledgements for those who contributed in some form" accessibleText="Acknowledgements" editable="false" layoutX="32.0" layoutY="-52.0" prefHeight="162.0" prefWidth="420.0" text="Thanks to all volunteers for user testing during development.&#10;&#10;Thanks to our teachers assistant, Daniel, for providing valuable input and insights during our weekly meetings.&#10;&#10;A special thanks to Svein for being our &quot;customer&quot; for this project." wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      </AnchorPane>
+    </Tab>
+  </TabPane>
+  <ButtonBar prefHeight="30.0" prefWidth="330.0">
+    <buttons>
+      <Button fx:id="closeAboutButton" accessibleHelp="Close the About window" accessibleRoleDescription="button, close window" accessibleText="Close" cancelButton="true" mnemonicParsing="false" onAction="#onCloseButton" text="Close" />
+    </buttons>
+    <VBox.margin>
+      <Insets right="10.0" top="10.0" />
+    </VBox.margin>
+  </ButtonBar>
+</VBox>

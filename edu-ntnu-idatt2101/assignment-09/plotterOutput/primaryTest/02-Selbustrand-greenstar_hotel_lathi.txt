@@ -1,0 +1,25 @@
+Total Points of Interest: 277800
+
+
+// Dijkstra: Selbustrand to GreenStar Hotel Lathi
+Enter start node ID:
+5009309
+Enter end node ID:
+999080
+
+Total nodes in the path: 3713
+Dijkstra took: 11164 milliseconds
+Dijkstra visited: 7085471 nodes
+Estimated travel time: 15 hours, 24 minutes, 42 seconds
+
+
+// ALT: Selbustrand to GreenStar Hotel Lathi
+Enter start node ID:
+5009309
+Enter end node ID:
+999080
+
+Total nodes in the path: 3708
+Alt took: 4457 milliseconds
+Alt visited: 1783929 nodes
+Estimated travel time: 15 hours, 24 minutes, 42 seconds

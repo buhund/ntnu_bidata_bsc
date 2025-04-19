@@ -1,0 +1,145 @@
+Total interest points: 277800
+
+// Trip 01
+Enter start node ID:
+2800567
+Enter end node ID:
+7705656
+
+Total nodes in the path: 333
+Dijkstra took: 4 milliseconds
+Dijkstra visited: 13406 nodes
+Estimated travel time: 0 hours, 40 minutes, 47 seconds
+
+
+// Trip 02
+Enter start node ID:
+7705656
+Enter end node ID:
+2800567
+
+Total nodes in the path: 333
+Dijkstra took: 7 milliseconds
+Dijkstra visited: 20004 nodes
+Estimated travel time: 0 hours, 40 minutes, 47 seconds
+
+
+// Trip 03
+Enter start node ID:
+647826
+Enter end node ID:
+136530
+
+Total nodes in the path: 407
+Dijkstra took: 61 milliseconds
+Dijkstra visited: 111607 nodes
+Estimated travel time: 0 hours, 32 minutes, 44 seconds
+
+
+// Trip 04
+Enter start node ID:
+136530
+Enter end node ID:
+647826
+
+Total nodes in the path: 409
+Dijkstra took: 109 milliseconds
+Dijkstra visited: 203115 nodes
+Estimated travel time: 0 hours, 33 minutes, 35 seconds
+
+
+// Trip 05
+Enter start node ID:
+7826348
+Enter end node ID:
+2948202
+
+Total nodes in the path: 1980
+Dijkstra took: 773 milliseconds
+Dijkstra visited: 1027524 nodes
+Estimated travel time: 5 hours, 53 minutes, 13 seconds
+
+
+// Trip 06
+Enter start node ID:
+2948202
+Enter end node ID:
+7826348
+
+Total nodes in the path: 2029
+Dijkstra took: 3361 milliseconds
+Dijkstra visited: 3253846 nodes
+Estimated travel time: 5 hours, 53 minutes, 0 seconds
+
+
+// Trip 07
+Enter start node ID:
+339910
+Enter end node ID:
+1853145
+
+Total nodes in the path: 3450
+Dijkstra took: 2701 milliseconds
+Dijkstra visited: 2607364 nodes
+Estimated travel time: 11 hours, 3 minutes, 16 seconds
+
+
+// Trip 08
+Enter start node ID:
+1853145
+Enter end node ID:
+339910
+
+Total nodes in the path: 3406
+Dijkstra took: 817 milliseconds
+Dijkstra visited: 1149379 nodes
+Estimated travel time: 11 hours, 3 minutes, 54 seconds
+
+
+// Trip 09
+Enter start node ID:
+2503331
+Enter end node ID:
+2866570
+
+Total nodes in the path: 7517
+Dijkstra took: 7532 milliseconds
+Dijkstra visited: 7801017 nodes
+Estimated travel time: 21 hours, 7 minutes, 7 seconds
+
+
+// Trip 10
+Enter start node ID:
+2866570
+Enter end node ID:
+2503331
+
+Total nodes in the path: 7523
+Dijkstra took: 4811 milliseconds
+Dijkstra visited: 5388731 nodes
+Estimated travel time: 21 hours, 6 minutes, 48 seconds
+
+
+// Trip 11
+Enter start node ID:
+6441311
+Enter end node ID:
+3168086
+
+Total nodes in the path: 5795
+Dijkstra took: 6889 milliseconds
+Dijkstra visited: 7442387 nodes
+Estimated travel time: 21 hours, 44 minutes, 14 seconds
+
+
+// Trip 12
+Enter start node ID:
+3168086
+Enter end node ID:
+6441311
+
+Total nodes in the path: 5819
+Dijkstra took: 7047 milliseconds
+Dijkstra visited: 7507150 nodes
+Estimated travel time: 21 hours, 45 minutes, 43 seconds
+

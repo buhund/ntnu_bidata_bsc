@@ -1,0 +1,265 @@
+Starship Adventure
+
+::Beginnings
+You awaken from cryosleep aboard your starship, the S.S. Explorer. You find the ship in disarray.
+[Check the ship's system](SystemCheck)
+[Inspect the cryopods](Cryopods)
+
+::SystemCheck
+The ship's AI reports multiple system failures and an unknown star system on the screen.
+[Reboot the system](RebootSystem)
+[Attempt manual navigation](ManualNavigation)
+
+::Cryopods
+All other cryopods are empty, except one. It's malfunctioning.
+[Try to open the malfunctioning cryopod](OpenPod)
+[Go to the ship's control deck](SystemCheck)
+
+::RebootSystem
+A system reboot temporarily fixes the problem. The ship's AI locates a nearby habitable planet.
+[Land on the planet](LandOnPlanet)
+[Keep the ship in orbit and investigate](OrbitInvestigation)
+
+::ManualNavigation
+You attempt to navigate manually. The ship enters an asteroid field.
+[Navigate through the asteroids](AsteroidField)
+[Turn back and reboot the system](RebootSystem)
+
+::OpenPod
+You open the malfunctioning cryopod. Inside, you find an alien life form.
+[Try to communicate with the alien](CommunicateAlien)
+[Contain the alien for safety](ContainAlien)
+
+::LandOnPlanet
+You land the ship on the planet. It seems to have breathable air, but the landscape is alien.
+[Explore the surroundings](ExplorePlanet)
+[Stay inside the ship](InsideShip)
+
+::OrbitInvestigation
+You investigate from orbit and detect a strange energy signature on the planet's surface.
+[Investigate the energy signature](EnergySignature)
+[Keep orbiting and scan for other anomalies](OrbitScan)
+
+::AsteroidField
+The ship takes severe damage while navigating the asteroid field.
+[Repair the ship](ShipRepair)
+[Send a distress signal](DistressSignal)
+
+::CommunicateAlien
+The alien seems intelligent and willing to communicate. It warns you of an impending danger.
+[Ask for help](AlienHelp)
+[Ignore the warning](IgnoreWarning)
+
+::ContainAlien
+You contain the alien for safety, but it seems distressed.
+[Release the alien](CommunicateAlien)
+[Keep the alien contained](KeepContained)
+
+::ExplorePlanet
+You explore the alien planet and find ruins of an advanced civilization.
+[Investigate the ruins](InvestigateRuins)
+[Return to the ship](LandOnPlanet)
+
+::InsideShip
+You stay inside the ship and perform repairs while monitoring the outside.
+[Continue repairs](ShipRepair)
+[Take a rest](Rest)
+
+::EnergySignature
+The energy signature leads to an ancient alien facility. It seems abandoned.
+[Enter the facility](EnterFacility)
+[Return to the ship](LandOnPlanet)
+
+::OrbitScan
+You detect a massive energy surge coming your way from deep space.
+[Prepare for impact](PrepareImpact)
+[Attempt to escape the energy surge](EscapeSurge)
+
+::ShipRepair
+You manage to repair the ship, but resources are running low.
+[Go back to the system check](SystemCheck)
+[Send a distress signal](DistressSignal)
+
+::DistressSignal
+You send a distress signal, but there's no immediate response. The situation looks grim.
+[Wait for a response](WaitResponse)
+[Explore the ship for other survival options](ExploreShip)
+
+::AlienHelp
+The alien offers to help by guiding you to a safe place.
+[Accept the help](AlienSafePlace)
+[Decline the help](DeclineHelp)
+
+::IgnoreWarning
+You ignore the alien's warning and continue your exploration.
+[Continue exploration](ExplorePlanet)
+[Return to the ship](InsideShip)
+
+::KeepContained
+You decide to keep the alien contained, but it looks increasingly distressed.
+[Release the alien](CommunicateAlien)
+[Keep the alien contained](KeepContained)
+
+::InvestigateRuins
+While investigating the ruins, you find a device that appears to be a star map.
+[Use the star map](UseStarMap)
+[Take the star map and return to the ship](ReturnWithStarMap)
+
+::Rest
+As you rest, the ship's systems show signs of improvement. It seems the reboot is taking effect.
+[Return to system check](SystemCheck)
+[Continue resting](Rest)
+
+::EnterFacility
+Inside the alien facility, you discover advanced technology, including a portal.
+[Use the portal](UsePortal)
+[Investigate other parts of the facility](InvestigateFacility)
+
+::PrepareImpact
+You prepare for the energy surge's impact, but it severely damages the ship.
+[Perform emergency repairs](EmergencyRepairs)
+[Abandon ship](AbandonShip)
+
+::EscapeSurge
+You manage to escape the energy surge, but the ship is pushed into unknown space.
+[Navigate manually](ManualNavigation)
+[Let the AI take over](SystemCheck)
+
+::WaitResponse
+After a few hours, you receive a response. An alien fleet appears from hyperspace.
+[Communicate with the fleet](CommunicateFleet)
+[Prepare for a possible attack](PrepareAttack)
+
+::ExploreShip
+Exploring the ship, you find a hidden compartment with emergency supplies and a small escape pod.
+[Use the escape pod](EscapePod)
+[Continue exploring the ship](ExploreShip)
+
+::AlienSafePlace
+Following the alien, you are guided to a hidden sanctuary filled with resources.
+[Stay in the sanctuary](StaySanctuary)
+[Go back to the ship with resources](ReturnWithResources)
+
+::DeclineHelp
+You decline the alien's help and it goes silent.
+[Release the alien](CommunicateAlien)
+[Explore the ship](ExploreShip)
+
+::UseStarMap
+Using the star map, you find a path to a nearby habitable galaxy.
+[Set course for the galaxy](GalaxyCourse)
+[Keep exploring the planet](ExplorePlanet)
+
+::ReturnWithStarMap
+With the star map, you return to the ship and plot a new course.
+[Follow the star map's course](GalaxyCourse)
+[Investigate the alien facility from orbit](OrbitInvestigation)
+
+::UsePortal
+You step through the portal and find yourself on a thriving alien world.
+[Find a way back to the ship](FindShip)
+[Explore the alien world](ExploreAlienWorld)
+
+::InvestigateFacility
+You discover the facility is powered by an unknown energy source.
+[Try to harness the energy source](HarnessEnergy)
+[Leave the facility and return to the ship](LandOnPlanet)
+
+::EmergencyRepairs
+You manage to make some repairs, but the ship is barely functional.
+[Land on the nearest planet](LandOnPlanet)
+[Continue making repairs](ShipRepair)
+
+::AbandonShip
+You abandon ship in a small escape pod. You crash land on a nearby planet.
+[Explore the planet](ExplorePlanet)
+[Stay in the escape pod and send a distress signal](DistressSignal)
+
+::CommunicateFleet
+The alien fleet responds and offers assistance. They repair your ship and share some of their technology.
+[Thank them and leave](LeaveInPeace)
+[Ask them about the area](AskAboutArea)
+
+::PrepareAttack
+You prepare for an attack, but it turns out the fleet is friendly and offers assistance.
+[Accept their help](CommunicateFleet)
+[Stay cautious and keep distance](StayCautious)
+
+::EscapePod
+You escape in the pod and are picked up by a passing cargo ship. You are safe, for now.
+[Stay on the cargo ship](EndSafeOnShip)
+[Try to convince the cargo ship to investigate the alien planet](ReturnWithHelp)
+
+::StaySanctuary
+You decide to stay in the alien sanctuary, living in peace with your new alien companion.
+[End living in the sanctuary](EndSanctuary)
+
+::ReturnWithResources
+You return to the ship with the resources and are able to make repairs.
+[Set course for a new destination](NewDestination)
+[Stay in the planet's orbit](OrbitInvestigation)
+
+::GalaxyCourse
+You set a course for the new galaxy. As you journey onward, you look forward to the new adventures that await.
+[End heading for a new galaxy](EndNewGalaxy)
+
+::FindShip
+You manage to find a way back to the ship, armed with new knowledge about this alien world.
+[Set course for home](CourseHome)
+[Return to the alien world](UsePortal)
+
+::ExploreAlienWorld
+As you explore, you encounter friendly alien beings who welcome you to their society.
+[Stay with the aliens](EndWithAliens)
+[Try to find a way back to the ship](FindShip)
+
+::HarnessEnergy
+You manage to harness the energy source and use it to upgrade your ship's systems.
+[Return to the ship](SystemCheck)
+[Keep investigating the facility](InvestigateFacility)
+
+::LeaveInPeace
+You thank the alien fleet and set off in your repaired ship, ready for your next adventure.
+[End with a repaired ship and new technology](EndRepairedShip)
+
+::AskAboutArea
+They tell you about a nearby trading post where you can stock up on supplies and meet other space travelers.
+[Head to the trading post](TradingPost)
+[Thank them and leave](LeaveInPeace)
+
+::StayCautious
+You keep your distance, but they assure you of their friendly intentions. Eventually, you accept their help.
+[End with a repaired ship and new technology](EndRepairedShip)
+
+::ReturnWithHelp
+You convince the cargo ship to investigate the alien planet. Together, you uncover a treasure trove of advanced alien technology.
+[End with a new ally and alien technology](EndNewAlly)
+
+::NewDestination
+With the ship repaired and a cargo hold full of resources, you set off toward a new destination.
+[End heading for a new destination](EndNewDestination)
+
+::EndSafeOnShip
+You stay on the cargo ship, thankful for the safe refuge. Your adventure in the unknown has ended, but a new journey has just begun.
+
+::EndSanctuary
+You live out your days in the sanctuary, finding peace and harmony with your alien friend.
+
+::EndNewGalaxy
+You journey into the new galaxy, ready for whatever adventures await. Your journey is far from over.
+
+::CourseHome
+You set a course for home, looking forward to reuniting with your own kind. Your journey has been long and eventful, but now it's time to go home.
+
+::EndWithAliens
+You choose to stay with the friendly aliens, learning and growing with them. Your journey has led you to a new home, one filled with peace and understanding.
+
+::EndRepairedShip
+With your ship repaired and upgraded, you are ready for anything. The stars are the limit.
+
+::EndNewAlly
+With the help of your new allies and the alien technology, you set a course for uncharted space. There's always another adventure on the horizon.
+
+::EndNewDestination
+With the ship repaired and resources gathered, you chart a course for unknown worlds. The universe is full of possibilities, and you're ready to explore them all.
+

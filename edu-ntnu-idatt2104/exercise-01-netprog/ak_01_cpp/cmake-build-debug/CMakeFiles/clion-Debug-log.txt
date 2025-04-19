@@ -1,0 +1,4 @@
+/home/mars/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/mars/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/ninja/linux/x64/ninja -G Ninja -S /home/mars/Tresors/Utdanning/BIDATA-Y02-S04-V2024/IDATT2104-Nettverksprogrammering/Arbeidskrav-NetProg/ak-01-netprog/ak_01_cpp_v2 -B /home/mars/Tresors/Utdanning/BIDATA-Y02-S04-V2024/IDATT2104-Nettverksprogrammering/Arbeidskrav-NetProg/ak-01-netprog/ak_01_cpp_v2/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/mars/Tresors/Utdanning/BIDATA-Y02-S04-V2024/IDATT2104-Nettverksprogrammering/Arbeidskrav-NetProg/ak-01-netprog/ak_01_cpp_v2/cmake-build-debug

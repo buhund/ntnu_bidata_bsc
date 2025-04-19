@@ -1,0 +1,160 @@
+/* src/assets/baseStyle.css */
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ebe9fb;
+    font-family: Arial, serif;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.header{
+    order: 1;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    order: 2;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+    overflow-y: auto;
+}
+
+.footer{
+    position: sticky;
+    top: 0;
+    order: 0;
+    width: 100%;
+    height: 100px;
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        order: 3;
+        bottom: 0;
+    }
+}
+
+.title{
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 35px;
+    border: none;
+    border-radius: 20px;
+    min-width: 350px;
+    min-height: 40px;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.input.not-selectable {
+    pointer-events: none;
+}
+
+.basicButton {
+    background-color: #A4CD92;
+    min-width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    min-height: 50px;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+.closePopup {
+    border-radius: 40px;
+    background-color: transparent;
+    border-style: none;
+}
+.closePopup:hover {
+    background-color: #fb4c4e;
+}
+#profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logOut, #delete {
+    background-color: #fb7782;
+    min-width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    min-height: 50px;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+#delete:hover{
+    background-color: #fb4c4e
+}
+
+#edit, #changePassword {
+    background-color: #A4CD92;
+    min-width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    min-height: 50px;
+    padding: 10px;
+    border: none;
+    font-size: 15px
+}
+
+#changePassword:hover{
+    background-color: #89a76c;
+}
+
+.header{
+    width: 100%;
+    align-items: center;
+}
+.error {
+    color: red;
+    margin-left: 13px;
+}
+
+.btn:disabled{
+    cursor: not-allowed;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    width:100px;
+    height: 30px;
+    border-style: none;
+    border-color: white;
+    border-radius: 7px;
+}
+@media screen and (max-width: 700px) {
+    .input {
+        min-width: 250px;
+    }
+}
+
+
+
+
+

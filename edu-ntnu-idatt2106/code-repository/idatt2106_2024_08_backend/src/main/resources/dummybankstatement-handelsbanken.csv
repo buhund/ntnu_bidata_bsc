@@ -1,0 +1,60 @@
+Utført dato;Bokført dato;Rentedato;Beskrivelse;Type;Undertype;Fra konto;Avsender;Til konto;Mottakernavn;Beløp inn;Beløp ut;Valuta;Status;Numref;Arkivref;Melding/KID/Fakt.nr
+22.04.2024;;21.04.2024;Straksoverføring;Betaling;Transaksjon;9492 05 51097;Brukskonto ung;;;;-500.000;NOK;Bekreftet;;;Straksoverføring
+22.04.2024;;21.04.2024;Straksbetaling;Betaling;Transaksjon;;;9492 05 51097;;530.000;;NOK;Bekreftet;;;Straksbetaling
+22.04.2024;;21.04.2024;Straksoverføring;Betaling;Transaksjon;9492 05 51097;Brukskonto ung;;;;-30.000;NOK;Bekreftet;;;Straksoverføring
+22.04.2024;;21.04.2024;21.04 BUNNPRIS MOHOLT HERMAN KRAGS TRONDHEIM;Betaling;Transaksjon;9492 05 51097;Brukskonto ung;;;;-45.000;NOK;Bekreftet;;;21.04 BUNNPRIS MOHOLT HERMAN KRAGS TRONDHEIM
+22.04.2024;;21.04.2024;21.04 UNO-X MOHOLT 06  TRONDHEIM;Betaling;Transaksjon;9492 05 51097;Brukskonto ung;;;;-739.920;NOK;Bekreftet;;;21.04 UNO-X MOHOLT 06  TRONDHEIM
+22.04.2024;;20.04.2024;20.04 REMA MOHOLT BRØSETVN. 17 TRONDHEIM;Betaling;Transaksjon;9492 05 51097;Brukskonto ung;;;;-541.980;NOK;Bekreftet;;;20.04 REMA MOHOLT BRØSETVN. 17 TRONDHEIM
+22.04.2024;;22.04.2024;eFaktura NettBank m/KID;Betaling;Transaksjon;9492 05 51097;Brukskonto ung;;;;-256.810;NOK;Bekreftet;;;eFaktura NettBank m/KID
+20.04.2024;;20.04.2024;Avtalegiro;Betaling;Transaksjon;9492 05 51097;Brukskonto ung;;;;-230.000;NOK;Bekreftet;;;Avtalegiro
+19.04.2024;19.04.2024;19.04.2024;18.04 BUNNPRIS MOHOLT HERMAN KRAGS TRONDHEIM;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-28;NOK;Bokført;;;18.04 BUNNPRIS MOHOLT HERMAN KRAGS TRONDHEIM
+17.04.2024;17.04.2024;17.04.2024;Tallink;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-2809.83;NOK;Bokført;;;*4945 16.04 SEK 2721.00 Tallink Kurs: 1.0327
+17.04.2024;17.04.2024;17.04.2024;Ola Nordmann;immediate;Straksbetaling;1210 54 16499;;9492 05 51097;Ola Nordmann;30;;NOK;Bokført;;;VIPPS MOBILEPAY AS Ola Nordmann
+17.04.2024;17.04.2024;16.04.2024;Ola Nordmann;immediate;Straksbetaling;9100 39 99985;;9492 05 51097;Ola Nordmann;545;;NOK;Bokført;;;??
+17.04.2024;17.04.2024;17.04.2024;16.04 BUNNPRIS MOHOLT HERMAN KRAGS TRONDHEIM;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-66.95;NOK;Bokført;;;16.04 BUNNPRIS MOHOLT HERMAN KRAGS TRONDHEIM
+17.04.2024;17.04.2024;17.04.2024;Ola Nordmann;immediate;Straksbetaling;1208 77 29077;;9492 05 51097;Ola Nordmann;30;;NOK;Bokført;;;VIPPS MOBILEPAY AS Ola Nordmann
+17.04.2024;17.04.2024;17.04.2024;Ola Nordmann;immediate;Straksbetaling;3624 26 88761;;9492 05 51097;Ola Nordmann;30;;NOK;Bokført;;;Fra: Ola Nordmann Betalt: 17.04.24
+16.04.2024;16.04.2024;16.04.2024;15.04 REMA MOHOLT BRØSETVN. 17 TRONDHEIM;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-583.45;NOK;Bokført;;;15.04 REMA MOHOLT BRØSETVN. 17 TRONDHEIM
+16.04.2024;16.04.2024;16.04.2024;Ola Nordmann;immediate;Straksbetaling;9492 05 51097;Ola Nordmann;3632 54 51798;Ola Nordmann;;-90;NOK;Bokført;;;Til: Ola Nordmann
+16.04.2024;16.04.2024;16.04.2024;Ola Nordmann;immediate;Straksbetaling;2938 13 00607;;9492 05 51097;Ola Nordmann;545;;NOK;Bokført;;;Fra: Ola Nordmann Betalt: 16.04.24
+16.04.2024;16.04.2024;16.04.2024;Ola Nordmann;immediate;Straksbetaling;9492 05 44384;;9492 05 51097;Ola Nordmann;1140;;NOK;Bokført;;;Fra: Ola Nordmann Betalt: 16.04.24
+16.04.2024;16.04.2024;16.04.2024;Ola Nordmann;immediate;Straksbetaling;9801 51 50521;;9492 05 51097;Ola Nordmann;545;;NOK;Bokført;;;VIPPS MOBILEPAY AS Ola Nordmann
+15.04.2024;15.04.2024;15.04.2024;14.04 MCD 088 ELVERUM OROLF STORSV ELVERUM;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-163;NOK;Bokført;;;14.04 MCD 088 ELVERUM OROLF STORSV ELVERUM
+15.04.2024;15.04.2024;15.04.2024;Vipps*HSK Parkering;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-50;NOK;Bokført;;;*4945 14.04 NOK 50.00 Vipps*HSK Parkering Kurs: 1.0000
+15.04.2024;15.04.2024;14.04.2024;Ola Nordmann;immediate;Straksbetaling;9535 05 98333;;9492 05 51097;Ola Nordmann;1068;;NOK;Bokført;;;Fra: Ola Nordmann Betalt: 14.04.24
+15.04.2024;15.04.2024;15.04.2024;14.04 SHELL ALVDAL NORD-ØSTERDA ALVDAL;Varekjøp;Varekjøp ubetjent;9492 05 51097;Ola Nordmann;;;;-412.63;NOK;Bokført;;;14.04 SHELL ALVDAL NORD-ØSTERDA ALVDAL
+12.04.2024;12.04.2024;15.04.2024;Vipps*Fjellsport.no;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-299;NOK;Bokført;;;*4945 12.04 NOK 299.00 Vipps*Fjellsport.no Kurs: 1.0000
+12.04.2024;12.04.2024;12.04.2024;Lønn fra Statens Lånekasse for Utdannin;Lønn;Lønn;7694 05 68761;;9492 05 51097;Ola Nordmann;9402.74;;NOK;Bokført;;;Fra: Statens Lånekasse for Utdanning
+11.04.2024;11.04.2024;11.04.2024;OBOS BBL;Betaling innland;Betaling med KID innland;9492 05 51097;Brukskonto ung;6032 05 02236;OBOS BBL;;-200;NOK;Bokført;;;Til: OBOS BBL Betalt: 11.04.24
+10.04.2024;10.04.2024;10.04.2024;Ola Nordmann;immediate;Straksbetaling;9492 05 51097;Ola Nordmann;9492 05 44384;Ola Nordmann;;-443;NOK;Bokført;;;Til: Ola Nordmann
+10.04.2024;10.04.2024;10.04.2024;Ola Nordmann;immediate;Straksbetaling;8101 35 10024;;9492 05 51097;Ola Nordmann;700;;NOK;Bokført;;;Gitar med veske
+09.04.2024;09.04.2024;09.04.2024;Vipps*Ruter;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-116.56;NOK;Bokført;;;*4945 08.04 NOK 116.56 Vipps*Ruter Kurs: 1.0000
+09.04.2024;09.04.2024;09.04.2024;Netflix.com;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-89;NOK;Bokført;;;*4945 09.04 NOK 89.00 Netflix.com Kurs: 1.0000
+08.04.2024;08.04.2024;07.04.2024;Ola Nordmann;immediate;Straksbetaling;1208 23 52706;;9492 05 51097;Ola Nordmann;250;;NOK;Bokført;;;3 øl
+08.04.2024;08.04.2024;08.04.2024;Ola Nordmann;immediate;Straksbetaling;1208 23 52706;;9492 05 51097;Ola Nordmann;73;;NOK;Bokført;;;Pizza
+08.04.2024;08.04.2024;08.04.2024;VIKINGLINE.SE;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-1855.41;NOK;Bokført;;;*4945 05.04 SEK 1790.00 VIKINGLINE.SE Kurs: 1.0365
+05.04.2024;05.04.2024;05.04.2024;SPAR MAGYARORSZAG KFT;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-72;NOK;Bokført;;;*4945 04.04 HUF 2353.00 SPAR MAGYARORSZAG KFT Kurs: 0.0306
+05.04.2024;05.04.2024;05.04.2024;SPAR MAGYARORSZAG KFT;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-21.39;NOK;Bokført;;;*4945 04.04 HUF 699.00 SPAR MAGYARORSZAG KFT Kurs: 0.0306
+05.04.2024;05.04.2024;05.04.2024;Ola Nordmann;immediate;Straksbetaling;4776 16 19353;;9492 05 51097;Ola Nordmann;600;;NOK;Bokført;;;Båt til Finland
+04.04.2024;04.04.2024;04.04.2024;Norges Orienteringsforbund;Betaling innland;Betaling med KID innland;9492 05 51097;Brukskonto ung;1813 43 37431;Norges Orienteringsforbund;;-10500;NOK;Bokført;;;Til: Norges Orienteringsforbund Betalt: 04.04.24
+03.04.2024;03.04.2024;03.04.2024;Overføring fra Totalkonto;Overføring;Overføring til egen konto;9492 05 86982;Totalkonto;9492 05 51097;Brukskonto ung;8000;;NOK;Bokført;;;Fra: Ola Nordmann Betalt: 03.04.24
+03.04.2024;03.04.2024;03.04.2024;FLYTOGET APP MC;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-120;NOK;Bokført;;;*4945 02.04 NOK 120.00 FLYTOGET APP MC Kurs: 1.0000
+02.04.2024;02.04.2024;02.04.2024;ORIENTEERING.SPORT;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-71.94;NOK;Bokført;;;*4945 31.03 EUR 6.00 ORIENTEERING.SPORT Kurs: 11.9900
+02.04.2024;02.04.2024;03.04.2024;Vipps*Ruter;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-40.74;NOK;Bokført;;;*4945 02.04 NOK 40.74 Vipps*Ruter Kurs: 1.0000
+02.04.2024;02.04.2024;02.04.2024;EasyPark AS;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-37.95;NOK;Bokført;;;*4945 28.03 NOK 37.95 EasyPark AS Kurs: 1.0000
+02.04.2024;02.04.2024;02.04.2024;STUDENTSAMSKIPNADEN I TR.HEIM;Betaling innland;Betaling med KID innland;9492 05 51097;Brukskonto ung;4200 41 51326;STUDENTSAMSKIPNADEN I TR.HEIM;;-4792;NOK;Bokført;;;Til: STUDENTSAMSKIPNADEN I TR.HEIM Betalt: 01.04.24
+02.04.2024;02.04.2024;02.04.2024;01.04 SHELL BJØLSEN MARIDALSVEIE OSLO;Varekjøp;Varekjøp ubetjent;9492 05 51097;Ola Nordmann;;;;-826.1;NOK;Bokført;;;01.04 SHELL BJØLSEN MARIDALSVEIE OSLO
+02.04.2024;02.04.2024;30.03.2024;Ola Nordmann;immediate;Straksbetaling;8398 10 40182;;9492 05 51097;Ola Nordmann;621;;NOK;Bokført;;;Fra: Ola Nordmann Betalt: 30.03.24
+02.04.2024;02.04.2024;31.03.2024;Ola Nordmann;immediate;Straksbetaling;8398 10 40182;;9492 05 51097;Ola Nordmann;70;;NOK;Bokført;;;Fra: Ola Nordmann Betalt: 31.03.24
+27.03.2024;27.03.2024;27.03.2024;Lønn fra Norges Orienteringsforbund;Lønn;Lønn;1813 43 37431;;9492 05 51097;Ola Nordmann;2502.98;;NOK;Bokført;;;Fra: Norges Orienteringsforbund
+27.03.2024;27.03.2024;27.03.2024;Vipps*Morgenfrisk i Fo;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-100;NOK;Bokført;;;*4945 26.03 NOK 100.00 Vipps*Morgenfrisk i Fo Kurs: 1.0000
+26.03.2024;26.03.2024;26.03.2024;GLAAMENE INDUSTRIER AS;Betaling innland;Overføring fra annen konto;5700 08 72867;GLAAMENE INDUSTRIER AS;9492 05 51097;Ola Nordmann;1000;;NOK;Bokført;;;Best i Blårunden 2023                                       1.000,00
+26.03.2024;26.03.2024;26.03.2024;25.03 REMA KJELSAAS KJELSÅSVEIEN OSLO;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-403.05;NOK;Bokført;;;25.03 REMA KJELSAAS KJELSÅSVEIEN OSLO
+25.03.2024;25.03.2024;25.03.2024;23.03 KIKUTSTUA NORDMARKA 84 OSLO;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-98;NOK;Bokført;;;23.03 KIKUTSTUA NORDMARKA 84 OSLO
+25.03.2024;25.03.2024;24.03.2024;Ola Nordmann;immediate;Straksbetaling;9492 05 44384;;9492 05 51097;Ola Nordmann;1100;;NOK;Bokført;;;Fra: Ola Nordmann Betalt: 24.03.24
+25.03.2024;25.03.2024;24.03.2024;Ola Nordmann;immediate;Straksbetaling;9492 05 51097;Ola Nordmann;9049 11 54410;Ola Nordmann;;-1100;NOK;Bokført;;;Til: Ola Nordmann
+25.03.2024;25.03.2024;25.03.2024;Zalando Payments;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-449;NOK;Bokført;;;*4945 22.03 NOK 449.00 Zalando Payments Kurs: 1.0000
+25.03.2024;25.03.2024;25.03.2024;23.03 REMA KJELSAAS KJELSÅSVEIEN OSLO;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-218.04;NOK;Bokført;;;23.03 REMA KJELSAAS KJELSÅSVEIEN OSLO
+22.03.2024;22.03.2024;22.03.2024;22.03 COOP PRIX ALVDA P.B. 24 ALVDAL;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-17;NOK;Bokført;;;22.03 COOP PRIX ALVDA P.B. 24 ALVDAL
+22.03.2024;22.03.2024;22.03.2024;22.03 BUNNPRIS MOHOLT HERMAN KRAGS TRONDHEIM;Varekjøp;Varekjøp debetkort;9492 05 51097;Ola Nordmann;;;;-57.67;NOK;Bokført;;;22.03 BUNNPRIS MOHOLT HERMAN KRAGS TRONDHEIM
+22.03.2024;22.03.2024;22.03.2024;22.03 CIRCLE K BERKÅK PARALLELLVEI RENNEBU;Varekjøp;Varekjøp ubetjent;9492 05 51097;Ola Nordmann;;;;-821.62;NOK;Bokført;;;22.03 CIRCLE K BERKÅK PARALLELLVEI RENNEBU
