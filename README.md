@@ -52,3 +52,13 @@ All code and artwork in this repository are licensed under the GNU General Publi
 - **[IDATT-2900](/edu-ntnu-idatt2900)** - Bacheloroppgave (*Bachelor's Thesis*)
 - **[INGT-2300](/edu-ntnu-ingt2300)** - Ingeniørfaglig systemtenkning (*Engineering Systems Thinking*)
 - **[IMAT-2024](/edu-ntnu-imat2024)** - Matematikk for ingeniørfag 2 D (*Mathematics for engineering 2 D*)
+
+
+## Technologies
+
+* IDE: JetBrains Suite
+* OS:  Linux, Mac OS
+* Office: Libre Office, Microsoft Office
+* Agile Dev: TDD, Agile, Scrum, Kanban, ScrumBan
+
+Java (Maven, Gradle), Python, SQL, C, C++, HTML, CSS, JavaScript, TypeScript, Kotlin, C#, .Net, React, Vue3, Flutter and Dart, Assembly, Docker, Wireshark, Jupyter, Ghidra, Weka
