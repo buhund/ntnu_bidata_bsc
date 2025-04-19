@@ -63,10 +63,10 @@
 Java (Maven, Gradle), Python, SQL, C, C++, HTML, CSS, JavaScript, TypeScript, Kotlin, C#, .Net, React, Vue3, Flutter and Dart, Assembly, Docker, Wireshark, Jupyter, Ghidra, Weka
 
 
-## License and Disclaimer
+## License, Terms and Disclaimer
 
 All code and artwork in this repository are licensed under the GNU General Public License v3, unless otherwise stated.
 
-Most of the code is made either by me alone, or as part of a group project. Some code originates from assignments given during the different courses
+Most of the code is made either by me alone, or as part of a group project. Some code originates from assignments given during the different courses, from TA or the Internet at large.
 
-If any artwork, images or source code originate from someone other than myself or a group project of which I have a part, those files are under the license of their respective originators. These files are used under the Fair Use assumption. However, if you recognize your work and wish to have it removed, please let me know, and I will be happy to comply.
+If any artwork, images or source code originate from someone other than myself or a group project of which I have a part, those files are under the license of their respective originators. These files are used under the Fair Use assumption. However, if you recognize your work and wish to have it removed, please let me know.
