@@ -9,7 +9,7 @@ A game engine for non-linear text driven games.
 - Import new story files.
 - Customizeable player character.
 
-## Dependencies
+## Technology and Dependencies
 
 - Java JDK 17
 - Maven

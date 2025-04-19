@@ -13,5 +13,6 @@ The code and report was developed as a group effort.
 
 ### Technologies
 
-* Frontend: Vue3, CSS, HTML, Javascript.
+* Frontend: Vue3, CSS, HTML, JavaScript.
 * Backend: Java, Maven.
+* Figma

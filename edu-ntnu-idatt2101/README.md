@@ -3,3 +3,9 @@
 This directory contains the assignments given as part of the course *Algoritmer og datastrukturer*.
 
 The work here was done by me and Emil Slettbakk.
+
+
+### Technologies
+
+* Java
+* Python

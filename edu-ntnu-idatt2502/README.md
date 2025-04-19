@@ -5,3 +5,9 @@ This directory contains the assignments given as part of the course *Anvendt mas
 The project was developed as a group effort by me and Emil Slettbakk.
 
 **Final grade: B**
+
+### Technologies
+
+* Python, JupyterNotebook
+* OpenAI Gymnasium
+* Weka

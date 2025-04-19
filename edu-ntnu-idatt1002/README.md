@@ -10,3 +10,10 @@ The code and report was developed as a group effort.
 ### Files
 * Source code: [code-repository -> Baecon-App](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt1002/code-repository/Baecon-App)
 * Final report: [final-delivery/](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt1002/final-delivery/project-report-main-idatt1002.pdf) -> project-report-main-idatt1002.pdf
+
+
+### Technologies
+
+* Java, Maven
+* SceneBuilder
+* Balsamiq Wireframes
