@@ -5,3 +5,8 @@ This directory contains the group project developed as part of the *Systemutvikl
 The code and report was developed as a group effort.
 
 **Final grade: C**
+
+### Files
+* Source code, frontend: [code-repository -> idatt2106_2024_08_frontend](/code-repository/idatt2106_2024_08_frontend/)
+* Source code, backend: [code-repository -> idatt2106_2024_08_backend](/code-repository/idatt2106_2024_08_backend/)
+* Final report: [idatt2106-sluttrapport_v2024.pdf](/idatt2106-sluttrapport_v2024.pdf)

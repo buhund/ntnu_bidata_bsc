@@ -9,6 +9,7 @@
 
 # KDE (Kubuntu)
 .directory
+*.kate-swp
 
 # IDE-specific files
 # JetBrains (IntelliJ IDEA, PyCharm, CLion, etc.)
