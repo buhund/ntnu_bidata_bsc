@@ -8,6 +8,7 @@ This directory contains the assignments given as part of the course *Applikasjon
     * [Main report (PDF)](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt2506/assignment_08-app_project-report/idatt2506-a08-crossplatform_project_01-main_report.pdf)
     * [Interaction design appendix (PDF)](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt2506/assignment_08-app_project-report/idatt2506-a08-crossplatform_project_02_appendix_a08_01_interaksjonsdesign.pdf)
     * [Project assignment text (PDF)](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt2506/assignment_08-app_project-report/idatt2506-project-assignment.pdf)
+    * [Demo of the app (.gif)](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt2506/assignment_08-app_project-report/todo-app-demo-01.gif)
 
 
 

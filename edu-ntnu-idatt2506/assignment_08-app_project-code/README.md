@@ -4,7 +4,7 @@ Multi-Platform To Do List App written in Dart using Flutter.
 
 The design of the app is based on tried and true design patterns for notes- and To Do apps, seen in apps like Apple Reminders, Apple Notes, Google Keep, and Microsoft To Do.
 
-Here be no triangular wheels, only round ones.
+*Here be no triangular wheels, only round ones.*
 
 
 #### Assignment feedback/evaluation
@@ -15,11 +15,11 @@ Here be no triangular wheels, only round ones.
 
 
 #### Demo of the app
-A short demo of the app, running on an Android emulator.
+A short demo (.gif) of the app, running on an Android emulator.
 Showing input via both on-screen keyboard and physical keyboard.
 
 <details>
-  <summary>Click here to expand and show GIF with demo</summary>
+  <summary>Click here to expand/hide demo</summary>
 <img src="https://github.com/buhund/ntnu_bidata_bsc/blob/main/edu-ntnu-idatt2506/assignment_08-app_project-report/todo-app-demo-01.gif" alt="App Preview" height="600"/>
 </details>
 
