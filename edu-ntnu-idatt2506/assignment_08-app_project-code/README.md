@@ -18,7 +18,12 @@ Here be no triangular wheels, only round ones.
 A short demo of the app, running on an Android emulator.
 Showing input via both on-screen keyboard and physical keyboard.
 
-<img src="todo-app-demo-01.gif" alt="App Preview" height="600"/>
+Click to expand/hide the demo (.GIF).
+
+<details>
+  <summary>Click here to expand</summary>
+<img src="https://github.com/buhund/ntnu_bidata_bsc/blob/main/edu-ntnu-idatt2506/assignment_08-app_project-report/todo-app-demo-01.gif" alt="App Preview" height="600"/>
+</details>
 
 ## Requirements
 
