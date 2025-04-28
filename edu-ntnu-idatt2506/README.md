@@ -5,8 +5,8 @@ This directory contains the assignments given as part of the course *Applikasjon
 ### Files
 * Source code and readme instructions: [assignment_08-app_project-code/](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt1002/code-repository/Baecon-App)
 * Final report: [assignment_08-app_project-report/](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt2506/assignment_08-app_project-report/)
-    * [Main report (PDF)](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt2506/assignment_08-app_project-report/idatt2506-a08-crossplatform_project_01-main_report)
-    * [Interaction design appendix (PDF)](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt2506/assignment_08-app_project-report/idatt2506-a08-crossplatform_project_02_appendix_a08_01_interaksjonsdesign)
+    * [Main report (PDF)](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt2506/assignment_08-app_project-report/idatt2506-a08-crossplatform_project_01-main_report.pdf)
+    * [Interaction design appendix (PDF)](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt2506/assignment_08-app_project-report/idatt2506-a08-crossplatform_project_02_appendix_a08_01_interaksjonsdesign.pdf)
     * [Project assignment text (PDF)](https://github.com/buhund/ntnu_bidata_bsc/tree/main/edu-ntnu-idatt2506/assignment_08-app_project-report/idatt2506-project-assignment.pdf)
 
 
