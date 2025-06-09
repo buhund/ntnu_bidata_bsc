@@ -6,3 +6,7 @@
 
 
 Group project in *partial differential equations* (*Partielle differentiallikninger*).
+
+This project was done as a collaborative effort.
+
+Final grade: A
